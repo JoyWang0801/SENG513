@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;1,200&display=swap");
+
+html{
+        font-family: "Titillium Web", sans-serif;
+        background-color: #25274D;
+}
+
+body{
+        margin: 0;
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+.Banner{
+        font-weight: 100;
+        color: white;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        margin-left: 5vw;
+}
+
+.CompanyName{
+        letter-spacing: -0.1em;
+        margin-left: 5vw;
+        width: 10%;
+        float: left;
+}
+
+.italy_small{
+        font-size: small;
+        font-style: italic;
+
+}
+
+img{
+        max-width: 100%;
+        height: auto;
+}
+
+.Latin{
+        position: absolute;
+        top: 8vh;
+        right: 16vw;
+        font-weight: 300;
+        color: white;
+}
+
+.top_image{
+        position: relative;
+}
