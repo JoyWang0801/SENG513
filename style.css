@@ -9,28 +9,39 @@ body{
         margin: 0;
 }
 
-@media only screen and (max-width: 640px) {
-
-}
-
 .Banner{
-        font-weight: 100;
         color: white;
-        margin-top: 1vh;
-        margin-bottom: 1vh;
         margin-left: 5vw;
+        position: relative;
 }
 
 .CompanyName{
         letter-spacing: -0.1em;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
         margin-left: 5vw;
-        width: 10%;
-        float: left;
+        font-weight: 100;
+        font-size: xx-large;
 }
 
 .italy_small{
         font-size: small;
         font-style: italic;
+        vertical-align: middle;
+        line-height: normal;
+}
+
+.Banner button {
+        display: inline-block; /* Add this line to make the button inline-block */
+        border: none;
+        background-color: #0074d9;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+        height: 100%; /* Set button height to 100% of its parent (the header) */
+        width: 20%;
+        border-radius: 0; /* Make the button corners square */
+        float: right;
 }
 
 img{
@@ -38,14 +49,5 @@ img{
         height: auto;
 }
 
-.Latin{
-        position: absolute;
-        top: 8vh;
-        right: 16vw;
-        font-weight: 300;
-        color: white;
-}
 
-.top_image{
-        position: relative;
-}
+
