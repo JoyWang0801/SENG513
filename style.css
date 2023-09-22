@@ -34,7 +34,7 @@ header{
     margin-left: -40vw;
 }
 
- button {
+header button {
      border: none;
      background-color: #2E9CCA;
      color: #fff;
@@ -46,10 +46,42 @@ header{
 }
 
 img{
-        max-width: 100%;
-        height: auto;
+    max-width: 100%;
+    height: auto;
+
 }
 
+.img-container{
+    position: relative;
+}
+
+/*
+.img-text{
+    position: absolute;  Position the text relative to the container
+    color: white;  Set the text color
+    left: 5vw;
+    display: inline-block;
+    height: 33%;
+}*/
+
+h1.img-text{
+    top: 5vh;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 5vw;
+    color: white;
+    font-size: 20px;
+}
+
+h1.img-text {
+    font-weight: 500;
+    font-size: 2em;
+}
 
 @media only screen and (min-width: 640px) {
 
