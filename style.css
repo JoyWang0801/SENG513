@@ -36,14 +36,17 @@ html{
         margin-right:auto;
     }
 
-    header button {
+    button {
         border: none;
         background-color: #2E9CCA;
         color: #fff;
         cursor: pointer;
         border-radius: 0; /* Make the button corners square */
-        float: right;
         padding: 20px 50px 20px 50px;
+    }
+
+    header button {
+        float: right;
         height: 100%;
     }
 
@@ -92,5 +95,30 @@ html{
         position: relative;
         background-color: #25274D;
         padding: 5vw 4vw 3vw 4vw;
+    }
+
+    .custom_tech{
+        text-align: center;
+        margin: 5vw;
+    }
+
+    .custom_tech_container{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .custom_tech_container img{
+        flex: 1; /* Distribute available space equally among images */
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .custom_tech_container div{
+        margin: 2vw;
+    }
+
+    .custom_tech_container p{
+    padding: 1vw 2vw 1vw 0;
     }
 }
