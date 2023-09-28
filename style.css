@@ -209,6 +209,7 @@ html{
             ". title  title ."
             "logo within_canada   outside ."
             "logo within_canada   outside .";
+        padding-bottom: 5vw;;
     }
 
     .to_top_image{
@@ -236,5 +237,35 @@ html{
         font-weight: lighter;
         margin-top: 1vw;
         margin-bottom: 1vw;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #6568aa;
+        color:white;
+        padding: 10vw;
+        line-height: 3vw;
+        font-size: larger;
+    }
+
+    .contact *{
+        margin: 1vw;
+    }
+
+    .contact button{
+        width: auto;
+        margin: 2vw;
+    }
+
+    /*TODO - text align centre*/
+
+    footer{
+        background-color: #25274D;
+        color: white;
+        display: flex;
+        align-items: center;
+
     }
 }
