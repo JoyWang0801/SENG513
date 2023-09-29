@@ -248,6 +248,7 @@ html{
         padding: 10vw;
         line-height: 3vw;
         font-size: larger;
+        margin-bottom: 1px;
     }
 
     .contact *{
@@ -263,9 +264,11 @@ html{
 
     footer{
         background-color: #25274D;
-        color: white;
+        color: rgba(255, 255, 255, 0.75);
         display: flex;
         align-items: center;
-
+        padding: 1vw;
+        justify-content: center;
+        font-weight: 200;
     }
 }
