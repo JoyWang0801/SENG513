@@ -51,7 +51,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
     }
 
     .head_wrapper{
@@ -231,31 +230,33 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
+        width: 100%;
     }
 
     .head_wrapper{
         text-align: center;
     }
 
-    .shop_reason h2{
-        margin: 1vw;
+    .head_wrapper img{
+        width: 4%;
     }
 
     .shop_reason_container{
+        max-width: 100%;
         display: flex;
         text-align: left;
         justify-content: space-between;
     }
 
-    .shop_reason_container p{
-        width: 50vw;
-        margin: 10px;
+    .shop_reason_container h4{
+        font-weight: 400;
+        padding: 1vw 0 1vw 0;
     }
 
-    .shop_reason_container h4{
-        padding: 2vw 0 2vw 0;
+    .shop_reason_container p{
+        margin: 1vw;
     }
+
 
     .company_info{
         margin: 5vw;
