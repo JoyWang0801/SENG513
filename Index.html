@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Importing CSS files -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/PurchaseInfo.css">
     <link rel="stylesheet" href="styles/IntrolPage.css">
     <link rel="stylesheet" href="styles/ProductPage.css">
 
@@ -58,7 +58,11 @@
             <h2>Custom Tech to your Doorstep</h2>
             <div class="custom_tech_container">
                 <div>
-                    <img src="./assets/custom_tech_1_image_large.png" alt="Androids picture">
+                    <picture>
+                        <source media="(max-width: 680px)"  srcset="./assets/custom_tech_1_image_medium.png">
+                        <source media="(min-width: 1280px)"  srcset="./assets/custom_tech_1_image_large.png">
+                        <img src="./assets/custom_tech_1_image_medium.png" alt="Androids picture">
+                    </picture>
                     <p>Customized - Androids</p>
                     <p>
                         Proin semper nibh nisl, vel fringilla dolor efficitur a. Donec
@@ -67,7 +71,11 @@
                     <button>BUY DROIDS</button>
                 </div>
                 <div>
-                    <img src="./assets/custom_tech_2_image_large.png" alt="vr picture">
+                    <picture>
+                        <source media="(max-width: 680px)"  srcset="./assets/custom_tech_2_image_medium.png">
+                        <source media="(min-width: 1280px)"  srcset="./assets/custom_tech_2_image_large.png">
+                        <img src="./assets/custom_tech_2_image_medium.png" alt="vr picture">
+                    </picture>
                     <p>Customized - VR Experiences</p>
                     <p>
                         Cras ullamcorper eget lorem elementum hendrerit. Ut velit lectus,
@@ -76,7 +84,11 @@
                     <button>BUY VR</button>
                 </div>
                 <div>
-                    <img src="./assets/custom_tech_3_image_large.png" alt="laptop picture">
+                    <picture>
+                        <source media="(max-width: 680px)"  srcset="./assets/custom_tech_3_image_medium.png">
+                        <source media="(min-width: 1280px)"  srcset="./assets/custom_tech_3_image_large.png">
+                        <img src="./assets/custom_tech_3_image_medium.png" alt="laptop picture">
+                    </picture>
                     <p>Customized - Laptops</p>
                     <p>
                         Integer sapien augue, posuere sit amet dolor at, lobortis
