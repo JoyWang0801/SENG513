@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;1,200&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Titillium Web", sans-serif;
+}
+
+@media only screen and (max-width: 680px) {
+    header{
+        background-color: #25274D;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        font-weight: 100;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5vw;
+        gap: 5vw;
+    }
+
+    .Logo{
+        letter-spacing: -0.1em;
+        font-size: xx-large;
+    }
+
+    .italy_small{
+        font-size: small;
+        font-style: italic;
+    }
+
+    button {
+
+    }
+
+    header button {
+        display: none;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-container{
+        position: relative;
+    }
+
+    .img-text-wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 4vw;
+        left: 4vw;
+        color: white;
+    }
+
+    .line1{
+        font-size: xxx-large;
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    .line2{
+        padding: 10px;
+        top:1vw;
+        font-size: x-large;
+        font-weight: 400;
+    }
+
+    .introduction{
+        margin: 3vw 6vw 3vw 6vw;
+    }
+
+    .introduction p{
+        padding: 2vw 0 2vw 0;
+        font-size: larger;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    header{
+        background-color: #25274D;
+        color: white;
+        top: 0;
+        display: flex;
+        font-weight: 100;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center; /* Vertically center the content */
+    }
+
+    .Logo{
+        letter-spacing: -0.1em;
+        margin-left: 5vw;
+        margin-right: 2vw;
+        font-size: xx-large;
+    }
+
+    .italy_small{
+        font-size: small;
+        font-style: italic;
+        margin-right:auto;
+    }
+
+    button {
+        border: none;
+        background-color: #2E9CCA;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 0; /* Make the button corners square */
+        padding: 2vw 4vw 2vw 4vw;
+        font-weight: bold;
+    }
+
+    header button {
+        float: right;
+        height: 100%;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-container{
+        position: relative;
+    }
+
+    .img-text-wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 4vw;
+        left: 4vw;
+        color: white;
+    }
+
+    .line1{
+        font-size: xxx-large;
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    .line2{
+        padding: 10px;
+        top:1vw;
+        font-size: x-large;
+        font-weight: 400;
+    }
+
+    .introduction{
+        margin: 3vw 6vw 3vw 6vw;
+    }
+
+    .introduction p{
+        padding: 2vw 0 2vw 0;
+        font-size: larger;
+    }
+}

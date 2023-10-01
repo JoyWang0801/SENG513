@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Hi-Tech SOLN</title>
-    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing CSS files -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/IntrolPage.css">
+    <link rel="stylesheet" href="styles/ProductPage.css">
+
 </head>
 <body>
     <header>
         <span class="Logo">Hi-Tech SOLN</span>
         <span class="italy_small">Hi-Tech solutions for everyone</span>
-        <button>SHOP</button>
     </header>
     <main>
         <div class="img-container">
-            <img src="./assets/top_image_large.png" alt="top image large">
+            <picture>
+                <source media="(max-width: 680px)"  srcset="./assets/top_image_small.png">
+                <source media="(min-width: 1280px)"  srcset="./assets/top_image_large.png">
+                <img src="./assets/top_image_medium.png" alt="top image">
+            </picture>
             <div class="img-text-wrapper">
                 <p class="line1" >Lorem lpsum <br>
                     dolor sit amet</p>
@@ -22,6 +30,7 @@
                     ligula, porttitor eu, co nsequat vitae,<br>
                     eleifend ac, enim.</p>
             </div>
+            <button>SHOP</button>
         </div>
 
         <div class="introduction">
