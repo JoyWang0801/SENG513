@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 680px) {
     .shop_reason{
-        background-color: #2E9CCA;
+        background-color: #29648A;
         position: relative;
         padding: 5vw 7vw 10vw 7vw;
         color: white;
@@ -100,17 +100,18 @@
     }
 
     .shipping h3{
+        font-weight: bold;
         padding: 5vw 0 5vw 0;
     }
 
     .shipping div {
         padding: 2vw 0 2vw 0;
+        width: 90%;
     }
 
     .shipping p, h4{
-        font-weight: lighter;
         margin-top: 1vw;
-        margin-bottom: 1vw;
+        margin-bottom: 4vw;
     }
 
     .contact{
@@ -146,7 +147,7 @@
 
 @media only screen and (min-width: 1280px) {
     .shop_reason{
-        background-color: #2E9CCA;
+        background-color: #29648A;
         position: relative;
         padding: 5vw 7vw 10vw 7vw;
         color: white;
@@ -188,6 +189,7 @@
     .company_info{
         margin: 5vw;
         display: flex;
+        text-align: left;
         justify-content: space-around;
         line-height: 2;
         font-size: larger;
@@ -270,11 +272,13 @@
 
     .contact *{
         margin: 1vw;
+        width: 50%;
+        text-align: center;
     }
 
     .contact button{
         width: auto;
-        margin: 2vw;
+        padding: 2vw;
     }
 
     footer{
