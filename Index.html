@@ -7,7 +7,7 @@
 
     <!-- Importing CSS files -->
     <link rel="stylesheet" href="styles/PurchaseInfo.css">
-    <link rel="stylesheet" href="styles/IntrolPage.css">
+    <link rel="stylesheet" href="styles/IntroPage.css">
     <link rel="stylesheet" href="styles/ProductPage.css">
 
 </head>
@@ -182,7 +182,11 @@
         <div class="shipping">
             <img src="./assets/to_top.png" class="to_top_image" alt="to top image">
             <h3>We ship worldwide!</h3>
-            <img src="./assets/shipping_icon_large.png" class="truck_image" alt="truck image">
+            <picture class="truck_image">
+                <source media="(max-width: 680px)"  srcset="./assets/shipping_icon_small.png">
+                <source media="(min-width: 1280px)"  srcset="./assets/shipping_icon_large.png">
+                <img src="./assets/shipping_icon_medium.png"  alt="truck image">
+            </picture>
             <div class="domestic">
                 <h4>WITHIN CANADA AND THE US</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut dapibus leo quis risus tempor,
@@ -196,15 +200,15 @@
         </div>
 
         <div class="contact">
-            <h2>Aenean massa cum socis natoque<br>
+            <h2>Aenean massa cum socis natoque
                 penatibus et magnis dis parturient?</h2>
-            <p>Lae justo. Nullam dictum felis eu pede mollis<br>
+            <p>Lae justo. Nullam dictum felis eu pede mollis
                 pretium. Integer tincidunt. Cras dapibus</p>
             <button>CONTACT US</button>
         </div>
 
         <footer>
-            © Hi-Tech SOLN Not a real companv convright sumbol for testing nurnoses oniv)
+            © Hi-Tech SOLN (Not a real companv convright sumbol for testing nurnoses oniv)
         </footer>
     </main>
 </body>

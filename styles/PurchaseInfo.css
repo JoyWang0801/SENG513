@@ -9,40 +9,47 @@
     }
 
     .flourish_background{
-        position: absolute;
-        top: 0;
-        left: 0;
+        display: none;
+    }
+
+    .shop_reason div{
+        margin: 6vw 0 6vw 0;
+    }
+
+    .shop_reason h2{
+        margin: 1vw;
+        font-size: 5vw;
     }
 
     .head_wrapper{
         text-align: center;
     }
 
-    .shop_reason h2{
-        margin: 1vw;
+    .head_wrapper img{
+        width: 15%;
     }
 
     .shop_reason_container{
-        display: flex;
         text-align: left;
-        justify-content: space-between;
+        font-size: 4vw;
     }
 
     .shop_reason_container p{
-        width: 50vw;
-        margin: 10px;
+        margin: 3vw;
+        font-weight: 500;
     }
 
     .shop_reason_container h4{
         padding: 2vw 0 2vw 0;
+        font-weight: 500;
     }
 
     .company_info{
         margin: 5vw;
-        display: flex;
         justify-content: space-around;
         line-height: 2;
-        font-size: larger;
+        font-size: x-large;
+        font-weight: 500;
     }
 
     li::marker{
@@ -54,7 +61,8 @@
     }
 
     .company_info div{
-        max-width: 50%;
+        display: flex;
+        flex-direction: column;
         padding: 1vw;
         text-align: left;
     }
@@ -65,40 +73,38 @@
     }
 
     .company_info ul{
-        padding: 1vw;
+        padding: 3vw;
     }
 
     .shipping {
-        background-color: antiquewhite;
-        display: inline-grid;
+        background-color: #FEF9F7;
+        position: relative;
         gap: 2vw;
-        grid-template-areas:
-                ". . . hd"
-                ". title  title ."
-                "logo within_canada   outside ."
-                "logo within_canada   outside .";
-        padding-bottom: 5vw;;
+        padding-left: 5vw;
+        align-content: flex-start;
     }
 
     .to_top_image{
-        float: right;
-        grid-area: hd;
+        position: absolute;
+        width: 9vw;
+        left: 45%;
+        right: 45%;
+    }
+
+
+    .truck_image{
+        width: 15vw;
+        right: 0;
+        top: 0;
+        position: absolute;
     }
 
     .shipping h3{
-        grid-area: title;
+        padding: 5vw 0 5vw 0;
     }
 
-    .truck_image{
-        grid-area: logo;
-    }
-
-    .domestic{
-        grid-area: within_canada;
-    }
-
-    .international{
-        grid-area: outside;
+    .shipping div {
+        padding: 2vw 0 2vw 0;
     }
 
     .shipping p, h4{
@@ -110,32 +116,31 @@
     .contact{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        background-color: #6568aa;
+        align-items: flex-start;
+        background-color: #29648A;;
         color:white;
-        padding: 10vw;
-        line-height: 3vw;
-        font-size: larger;
+        padding: 10vw 0 10vw 3vw;
+        font-size: x-large;
         margin-bottom: 1px;
     }
 
     .contact *{
-        margin: 1vw;
+        margin: 2vw;
     }
 
     .contact button{
-        width: auto;
-        margin: 2vw;
+        width: 30%;
+        height: auto;
+        padding: 3vw;
     }
 
     footer{
         background-color: #25274D;
         color: rgba(255, 255, 255, 0.75);
         display: flex;
-        align-items: center;
-        padding: 1vw;
-        justify-content: center;
-        font-weight: 200;
+        padding: 5vw;
+        text-align: center;
+        font-size: x-large;
     }
 }
 
@@ -212,15 +217,15 @@
     }
 
     .shipping {
-        background-color: antiquewhite;
+        background-color: #FEF9F7;
         display: inline-grid;
         gap: 2vw;
         grid-template-areas:
-            ". . . hd"
-            ". title  title ."
+            "place . . hd"
+            "place title  title ."
             "logo within_canada   outside ."
             "logo within_canada   outside .";
-        padding-bottom: 5vw;;
+        padding-bottom: 5vw;
     }
 
     .to_top_image{
@@ -233,6 +238,7 @@
     }
 
     .truck_image{
+        width: 15vw;
         grid-area: logo;
     }
 
@@ -254,7 +260,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #6568aa;
+        background-color: #29648A;;
         color:white;
         padding: 10vw;
         line-height: 3vw;
