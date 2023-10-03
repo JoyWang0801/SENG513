@@ -13,6 +13,10 @@ UCID 30102919
     color: white;
 }
 
+.left_reason li::marker{
+    font-size: 15px;
+}
+
 .flourish_background{
     position: absolute;
     top: 0;
@@ -29,25 +33,18 @@ UCID 30102919
     margin: 6vw 0 6vw 0;
 }
 
-.shop_reason_container{
-    max-width: 100%;
-    display: flex;
-    text-align: left;
-    justify-content: space-between;
-    font-size: x-large;
-}
-
-.shop_reason_container h4{
-    font-weight: 400;
-    padding: 2vw 0 2vw 0;
-}
-
-.shop_reason_container p{
-    margin: 1vw;
-}
-
 .shop_reason_container div{
     width: auto;
+}
+
+.left_reason p{
+    margin: 2vw 0 2vw 0;
+}
+
+
+.left_reason{
+    columns: 2;
+    gap: 30vw;
 }
 
 .company_info{
@@ -60,12 +57,17 @@ UCID 30102919
     gap: 2vw;
 }
 
-li::marker{
+.company_info li::marker{
     color: #AAABB8;
 }
 
 .company_info h2{
+    display: inline-block;
     padding: 1vw 0 1vw 0 ;
+}
+
+.company_info li{
+    margin-left: 1.5em;
 }
 
 .company_info h4{
@@ -152,13 +154,17 @@ footer{
         font-size: 4vw;
     }
 
-    .shop_reason_container p{
-        margin: 3vw;
-        font-weight: 500;
-    }
-
     .shop_reason_container div{
         width: auto;
+    }
+
+    .left_reason{
+        columns: 1;
+    }
+
+
+    .left_reason p{
+        width: 80%;
     }
 
     .company_info div{
@@ -168,9 +174,6 @@ footer{
         text-align: left;
     }
 
-    .company_info ul{
-        padding: 5vw;
-    }
 
     .shipping {
         background-color: #FEF9F7;
@@ -258,26 +261,14 @@ footer{
     }
 
     .shop_reason_container{
-        display: flex;
         text-align: left;
-        justify-content: space-between;
     }
 
-    .shop_reason_container h4{
+    .left_reason {
         font-size: large;
-        font-weight: 400;
-        padding: 1vw 0 1vw 1vw;
+        padding-left: 20px;
     }
 
-    .left_reason p{
-        margin: 2vw;
-        font-size: large;
-    }
-
-    .right_reason p{
-        margin: 2vw 0 2vw 2vw;
-        font-size: large;
-    }
 
     .company_info{
         display: flex;
@@ -289,10 +280,6 @@ footer{
         max-width: 50%;
         padding: 1vw;
         text-align: left;
-    }
-
-    .company_info ul{
-        padding: 1vw;
     }
 
     .shipping {
