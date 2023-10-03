@@ -1,19 +1,136 @@
 
+.shop_reason{
+    background-color: #29648A;
+    position: relative;
+    padding: 5vw 7vw 10vw 7vw;
+    color: white;
+}
+
+.flourish_background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.head_wrapper img{
+    width: 10%;
+}
+
+.head_wrapper{
+    text-align: center;
+    margin: 6vw 0 6vw 0;
+}
+
+.shop_reason_container{
+    max-width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.shop_reason_container h4{
+    font-weight: 400;
+    padding: 2vw 0 2vw 0;
+}
+
+.shop_reason_container p{
+    margin: 1vw;
+}
+
+.shop_reason_container div{
+    width: 45%;
+}
+
+.company_info{
+    margin: 5vw;
+    justify-content: space-around;
+    line-height: 2;
+    font-size: x-large;
+    font-weight: 500;
+    text-align: left;
+}
+
+li::marker{
+    color: #AAABB8;
+}
+
+.company_info h2{
+    padding: 1vw 0 1vw 0 ;
+}
+
+.company_info h4{
+    font-weight: normal;
+    padding: 1vw 0 1vw 0;
+}
+
+.shipping {
+    background-color: #FEF9F7;
+    position: relative;
+    padding-left: 10vw;
+    align-content: flex-start;
+}
+
+
+.to_top_image{
+    float: none;
+    width: 9vw;
+}
+
+.truck_image{
+    width: 15vw;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.shipping h3{
+    font-weight: bold;
+    padding: 5vw 0 3vw 0;
+}
+
+.shipping div {
+    width: 90%;
+    padding: 2vw 0 2vw 0;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #29648A;;
+    color:white;
+    padding: 10vw;
+    font-size: larger;
+    margin-bottom: 1px;
+}
+
+.contact *{
+    margin: 1vw;
+    width: 50%;
+    text-align: center;
+}
+
+.contact button{
+    width: 30%;
+    height: auto;
+    padding: 2vw;
+    text-align: center;
+}
+
+footer{
+    background-color: #25274D;
+    color: rgba(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 680px) {
-    .shop_reason{
-        background-color: #29648A;
-        position: relative;
-        padding: 5vw 7vw 10vw 7vw;
-        color: white;
-
-    }
-
     .flourish_background{
         display: none;
-    }
-
-    .shop_reason div{
-        margin: 6vw 0 6vw 0;
     }
 
     .shop_reason h2{
@@ -21,15 +138,8 @@
         font-size: 5vw;
     }
 
-    .head_wrapper{
-        text-align: center;
-    }
-
-    .head_wrapper img{
-        width: 15%;
-    }
-
     .shop_reason_container{
+        display: block;
         text-align: left;
         font-size: 4vw;
     }
@@ -39,25 +149,8 @@
         font-weight: 500;
     }
 
-    .shop_reason_container h4{
-        padding: 2vw 0 2vw 0;
-        font-weight: 500;
-    }
-
-    .company_info{
-        margin: 5vw;
-        justify-content: space-around;
-        line-height: 2;
-        font-size: x-large;
-        font-weight: 500;
-    }
-
-    li::marker{
-        color: #AAABB8;
-    }
-
-    .company_info h2{
-        padding: 1vw 0 1vw 0 ;
+    .shop_reason_container div{
+        width: auto;
     }
 
     .company_info div{
@@ -65,11 +158,6 @@
         flex-direction: column;
         padding: 1vw;
         text-align: left;
-    }
-
-    .company_info h4{
-        font-weight: normal;
-        padding: 1vw 0 1vw 0;
     }
 
     .company_info ul{
@@ -86,7 +174,6 @@
 
     .to_top_image{
         position: absolute;
-        width: 9vw;
         left: 45%;
         right: 45%;
     }
@@ -100,26 +187,20 @@
     }
 
     .shipping h3{
-        font-weight: bold;
         padding: 5vw 0 5vw 0;
     }
 
     .shipping div {
         padding: 2vw 0 2vw 0;
-        width: 90%;
     }
 
-    .shipping p, h4{
+    .shipping p, .shipping h4{
         margin-top: 1vw;
         margin-bottom: 4vw;
     }
 
     .contact{
-        display: flex;
-        flex-direction: column;
         align-items: flex-start;
-        background-color: #29648A;;
-        color:white;
         padding: 10vw 0 10vw 3vw;
         font-size: x-large;
         margin-bottom: 1px;
@@ -127,18 +208,15 @@
 
     .contact *{
         margin: 2vw;
+        width: auto;
+        text-align: left;
     }
 
     .contact button{
-        width: 30%;
-        height: auto;
         padding: 3vw;
     }
 
     footer{
-        background-color: #25274D;
-        color: rgba(255, 255, 255, 0.75);
-        display: flex;
         padding: 5vw;
         text-align: center;
         font-size: x-large;
@@ -146,31 +224,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .shop_reason{
-        background-color: #29648A;
-        position: relative;
-        padding: 5vw 7vw 10vw 7vw;
-        color: white;
-
-    }
-
-    .flourish_background{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .head_wrapper{
-        text-align: center;
-    }
-
     .head_wrapper img{
         width: 4%;
     }
 
     .shop_reason_container{
-        max-width: 100%;
         display: flex;
         text-align: left;
         justify-content: space-between;
@@ -187,31 +245,15 @@
 
 
     .company_info{
-        margin: 5vw;
         display: flex;
         text-align: left;
-        justify-content: space-around;
-        line-height: 2;
         font-size: larger;
-    }
-
-    li::marker{
-        color: #AAABB8;
-    }
-
-    .company_info h2{
-        padding: 1vw 0 1vw 0 ;
     }
 
     .company_info div{
         max-width: 50%;
         padding: 1vw;
         text-align: left;
-    }
-
-    .company_info h4{
-        font-weight: normal;
-        padding: 1vw 0 1vw 0;
     }
 
     .company_info ul{
@@ -223,8 +265,8 @@
         display: inline-grid;
         gap: 2vw;
         grid-template-areas:
-            "place . . hd"
-            "place title  title ."
+            ". . . hd"
+            ". title  title ."
             "logo within_canada   outside ."
             "logo within_canada   outside .";
         padding-bottom: 5vw;
@@ -233,10 +275,12 @@
     .to_top_image{
         float: right;
         grid-area: hd;
+        width: auto;
     }
 
     .shipping h3{
         grid-area: title;
+        padding: 0;
     }
 
     .truck_image{
@@ -259,35 +303,16 @@
     }
 
     .contact{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #29648A;;
-        color:white;
-        padding: 10vw;
         line-height: 3vw;
-        font-size: larger;
-        margin-bottom: 1px;
     }
 
     .contact *{
         margin: 1vw;
-        width: 50%;
-        text-align: center;
+        width: 30%;
     }
 
     .contact button{
         width: auto;
-        padding: 2vw;
-    }
-
-    footer{
-        background-color: #25274D;
-        color: rgba(255, 255, 255, 0.75);
-        display: flex;
-        align-items: center;
-        padding: 1vw;
-        justify-content: center;
-        font-weight: 200;
+        padding: 1vw 2vw 1vw 2vw;
     }
 }

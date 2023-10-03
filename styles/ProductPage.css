@@ -20,7 +20,7 @@
     margin: 2vw;
 }
 
-.custom_tech_container p, h3{
+.custom_tech_container p, .custom_tech_container h3{
     padding: 1vw 1vw 2vw 0;
 }
 
@@ -45,7 +45,7 @@
         margin: 0;
     }
 
-    .custom_tech_container p, h3{
+    .custom_tech_container p, .custom_tech_container h3{
         margin: 3vw;
         font-size: 4vw;
         font-weight: normal;
