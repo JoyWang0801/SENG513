@@ -14,7 +14,7 @@
 }
 
 .head_wrapper img{
-    width: 10%;
+    width: 15%;
 }
 
 .head_wrapper{
@@ -40,7 +40,7 @@
 }
 
 .shop_reason_container div{
-    width: 45%;
+    width: auto;
 }
 
 .company_info{
@@ -162,7 +162,7 @@ footer{
     }
 
     .company_info ul{
-        padding: 3vw;
+        padding: 5vw;
     }
 
     .shipping {
@@ -257,14 +257,20 @@ footer{
     }
 
     .shop_reason_container h4{
+        font-size: large;
         font-weight: 400;
-        padding: 1vw 0 1vw 0;
+        padding: 1vw 0 1vw 1vw;
     }
 
-    .shop_reason_container p{
-        margin: 1vw;
+    .left_reason p{
+        margin: 2vw;
+        font-size: large;
     }
 
+    .right_reason p{
+        margin: 2vw 0 2vw 2vw;
+        font-size: large;
+    }
 
     .company_info{
         display: flex;
