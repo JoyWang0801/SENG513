@@ -40,7 +40,7 @@ img, picture{
 .header{
     padding-left: 5vw;
     background-color: #25274D;
-    color: white;
+    color: #FFF;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -81,7 +81,7 @@ img, picture{
 @media only screen and (max-width: 680px) {
     .header{
         background-color: #25274D;
-        color: white;
+        color: #FFF;
         display: flex;
         flex-direction: column;
         align-content: flex-start;
@@ -108,6 +108,7 @@ img, picture{
     }
 
     .introduction{
+        color: #1F1F1F;
         margin-bottom: 10vw;
     }
 
@@ -143,7 +144,7 @@ img, picture{
 @media only screen and (min-width: 1280px) {
     .header{
         background-color: #25274D;
-        color: white;
+        color: #FFF;
         top: 0;
         display: flex;
         flex-direction: row;
@@ -212,7 +213,7 @@ img, picture{
         justify-content: space-evenly;
         top: 4vw;
         left: 4vw;
-        color: white;
+        color: #FFF;
         max-width: 25%;
     }
 

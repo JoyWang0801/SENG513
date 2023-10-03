@@ -10,7 +10,7 @@ UCID 30102919
     background-color: #29648A;
     position: relative;
     padding: 5vw 7vw 10vw 7vw;
-    color: white;
+    color: #FFF;
 }
 
 .left_reason li::marker{
@@ -57,14 +57,20 @@ UCID 30102919
     color: #AAABB8;
 }
 
-.company_info h2, .company_info h4{
-    display: inline-block;
-    padding: 1vw 0 1vw 0 ;
+.company_info ul{
+    color: #3C3C3C;
 }
 
 .company_info li{
     margin-left: 1em;
 }
+
+.company_info h2, .company_info h4{
+    color: #1F1F1F;
+    display: inline-block;
+    padding: 1vw 0 1vw 0 ;
+}
+
 
 .company_info div{
     padding: 1vw;
@@ -96,11 +102,13 @@ UCID 30102919
 }
 
 .shipping h3{
+    color: #1F1F1F;
     font-weight: bold;
     padding: 5vw 0 3vw 0;
 }
 
 .shipping div {
+    color: #3C3C3C;
     width: 90%;
     padding: 2vw 0 2vw 0;
 }
@@ -109,8 +117,8 @@ UCID 30102919
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #29648A;;
-    color:white;
+    background-color: #29648A;
+    color: #FFF;
     padding: 10vw;
     font-size: larger;
     margin-bottom: 1px;
@@ -131,7 +139,7 @@ UCID 30102919
 
 footer{
     background-color: #25274D;
-    color: rgba(255, 255, 255);
+    color: #FFF;
     display: flex;
     align-items: center;
     padding: 1vw;
