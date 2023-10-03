@@ -17,10 +17,36 @@ button {
     cursor: pointer;
     border-radius: 0;
     font-weight: bold;
+    padding: 1vw;
 }
 
 img, picture{
     width: 100%;
+}
+
+.img-text-wrapper button{
+    display: none;
+}
+
+.header{
+    background-color: #25274D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-weight: 100;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.Logo{
+    font-size: 9vw;
+    letter-spacing: -0.1em;
+}
+
+.italy_small{
+    font-size: 4vw;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 680px) {
@@ -36,11 +62,6 @@ img, picture{
         padding: 5vw;
         gap: 3vw;
         height: 30vw;
-    }
-
-    .Logo{
-        letter-spacing: -0.1em;
-        font-size: 9vw;
     }
 
     .italy_small{
@@ -88,6 +109,7 @@ img, picture{
         color: white;
         top: 0;
         display: flex;
+        flex-direction: row;
         font-weight: 100;
         width: 100%;
         justify-content: space-between;
