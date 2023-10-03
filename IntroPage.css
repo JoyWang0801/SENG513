@@ -63,19 +63,14 @@ img, picture{
     margin: 3vw 6vw 3vw 6vw;
 }
 
-.line2{
-    padding: 5vw 0 5vw 0;
-}
-
 .line1{
-    font-size: xxx-large;
-    font-weight: 500;
-    line-height: 4vw;
+    font-size: x-large;
+    font-weight: 600;
 }
 
 .line2{
-    top:3vw;
-    font-size: x-large;
+    padding: 2vw 0 2vw 0;
+    font-size: medium;
     font-weight: 400;
 }
 
@@ -112,23 +107,36 @@ img, picture{
         align-items: flex-start;
     }
 
-    .line1, .introduction h2{
-        margin-top: 2vw;
-        margin-bottom: 2vw;
+    .introduction{
+        margin-bottom: 10vw;
+    }
+
+    .line1, .line2{
+        margin-top: 3vw;
+        margin-bottom: 1vw;
         font-size: 6vw;
     }
 
-    .line2, .introduction p{
+    .line2{
+        font-size: 4vw;
+    }
+
+    .introduction h2, .introduction p{
         margin-top: 2vw;
         margin-bottom: 2vw;
         font-size: 4vw;
+    }
+
+    .introduction h2{
+        font-size: 6vw;
     }
 
     .img-text-wrapper button{
         display: block;
         font-weight: 500;
-        font-size: 4vw;
-        padding: 3vw 5vw 3vw 5vw;
+        font-size: 3vw;
+        padding: 4vw;
+        width: 20%;
     }
 }
 
@@ -142,7 +150,7 @@ img, picture{
         font-weight: 100;
         width: 100%;
         justify-content: space-between;
-        align-items: center; /* Vertically center the content */
+        align-items: center;
         position: relative;
         height: 4vw;
     }
@@ -181,6 +189,19 @@ img, picture{
 
     .img-container{
         position: relative;
+    }
+
+    .line1{
+        font-size: xxx-large;
+        font-weight: 500;
+        line-height: 4vw;
+    }
+
+    .line2{
+        padding: 5vw 0 5vw 0;
+        top:3vw;
+        font-size: x-large;
+        font-weight: 400;
     }
 
     .img-text-wrapper {

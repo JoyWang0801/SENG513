@@ -9,7 +9,7 @@ UCID 30102919
 .video{
     position: relative;
     background-color: #25274D;
-    padding: 9vh 2vh 3vh 2vh;
+    padding: 10vw 4vw 6vw 4vw;
 }
 
 .custom_tech{
@@ -42,6 +42,10 @@ UCID 30102919
 }
 
 @media only screen and (max-width: 680px) {
+    .video{
+        padding-top: 15vw;
+    }
+
     .custom_tech{
         margin: 0;
     }
@@ -63,14 +67,14 @@ UCID 30102919
     }
 
     .custom_tech_container p, .custom_tech_container h3{
-        margin: 3vw;
+        margin: 4vw;
         font-size: 4vw;
         font-weight: normal;
         padding: 1vw 1vw 0 0;
     }
 
     .custom_tech_container button{
-        margin: 3vw;
+        margin: 4vw;
         padding: 4vw;
         font-size: 3vw;
     }
@@ -87,7 +91,7 @@ UCID 30102919
 
     .custom_tech_container {
         display: inline-grid;
-        gap:3vw;
+        grid-gap: 2vw;
         grid-template-areas:
             "a_pic v_pic l_pic"
             "a_title v_title l_title"

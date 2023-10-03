@@ -33,10 +33,6 @@ UCID 30102919
     margin: 6vw 0 6vw 0;
 }
 
-.shop_reason_container div{
-    width: auto;
-}
-
 .left_reason p{
     margin: 2vw 0 2vw 0;
 }
@@ -61,18 +57,22 @@ UCID 30102919
     color: #AAABB8;
 }
 
-.company_info h2{
+.company_info h2, .company_info h4{
     display: inline-block;
     padding: 1vw 0 1vw 0 ;
 }
 
 .company_info li{
-    margin-left: 1.5em;
+    margin-left: 1em;
+}
+
+.company_info div{
+    padding: 1vw;
+    text-align: left;
 }
 
 .company_info h4{
     font-weight: normal;
-    padding: 1vw 0 1vw 0;
 }
 
 .shipping {
@@ -117,7 +117,7 @@ UCID 30102919
 }
 
 .contact *{
-    margin: 1vw;
+    margin: 2vw 0 2vw 1vw;
     width: 50%;
     text-align: center;
 }
@@ -145,20 +145,13 @@ footer{
 
     .shop_reason h2{
         margin: 1vw;
-        font-size: 5vw;
-    }
-
-    .shop_reason_container{
-        display: block;
-        text-align: left;
-        font-size: 4vw;
-    }
-
-    .shop_reason_container div{
-        width: auto;
+        font-size: 6vw;
     }
 
     .left_reason{
+        display: block;
+        text-align: left;
+        font-size: 4vw;
         columns: 1;
     }
 
@@ -170,8 +163,6 @@ footer{
     .company_info div{
         display: flex;
         flex-direction: column;
-        padding: 1vw;
-        text-align: left;
     }
 
 
@@ -230,8 +221,7 @@ footer{
     }
 
     .contact *{
-        margin: 2vw;
-        width: auto;
+        width: 90%;
         text-align: left;
     }
 
@@ -260,13 +250,10 @@ footer{
         padding: 5vw;
     }
 
-    .shop_reason_container{
-        text-align: left;
-    }
-
     .left_reason {
+        text-align: left;
         font-size: large;
-        padding-left: 20px;
+        padding-left: 5vw;
     }
 
 
@@ -278,14 +265,12 @@ footer{
 
     .company_info div{
         max-width: 50%;
-        padding: 1vw;
-        text-align: left;
     }
 
     .shipping {
         background-color: #FEF9F7;
         display: inline-grid;
-        gap: 2vw;
+        grid-gap: 2vw;
         grid-template-areas:
             ". . . hd"
             ". title  title ."
@@ -330,7 +315,6 @@ footer{
 
     .contact *{
         margin: 1vw;
-        width: 30%;
     }
 
     .contact button{
