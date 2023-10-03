@@ -1,36 +1,51 @@
-img{
-    width: 100%;
+.video{
+    position: relative;
+    background-color: #25274D;
+    padding: 9vh 2vh 3vh 2vh;
+}
+
+.custom_tech h2{
+    text-align: center;
+    margin: 5vw;
+}
+
+.custom_tech_container{
+    display: flex;
+    text-align: left;
+    vertical-align: after-edge;
+    justify-content: space-between;
+}
+
+.custom_tech_container div{
+    margin: 2vw;
+}
+
+.custom_tech_container p, h3{
+    padding: 1vw 1vw 2vw 0;
+}
+
+.custom_tech_container button {
+    width: auto;
+    padding: 2vw;
 }
 
 @media only screen and (max-width: 680px) {
-    .video{
-        position: relative;
-        background-color: #25274D;
-        padding: 9vh 2vh 3vh 2vh;
-    }
-
-    .custom_tech{
-        text-align: center;
+    .custom_tech h2{
+        margin: 10vw 0 10vw 0;
+        font-size: 5vw;
     }
 
     .custom_tech_container{
         display: flex;
-        text-align: left;
         flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .custom_tech h2{
-        margin: 10vw 0 10vw 0;
-        align-content: center;
-        font-size: 5vw;
-    }
-
-    .custom_tech_container div{
         margin: 0 0 10vw 0;
     }
 
-    .custom_tech_container p{
+    .custom_tech_container div{
+        margin: 0;
+    }
+
+    .custom_tech_container p, h3{
         margin: 3vw;
         font-size: 4vw;
         font-weight: normal;
@@ -39,38 +54,63 @@ img{
 
     .custom_tech_container button{
         margin: 3vw;
-        padding: 4vw 5vw 4vw 4vw;
+        padding: 4vw;
         font-size: 3vw;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .video {
-        position: relative;
-        background-color: #25274D;
         padding: 6vw 4vw 3vw 4vw;
     }
 
-    .custom_tech {
-        text-align: center;
-        margin: 5vw;
-    }
-
     .custom_tech_container {
-        display: flex;
-        text-align: left;
-        justify-content: space-between;
+        display: inline-grid;
+        gap:3vw;
+        grid-template-areas:
+            "a_pic v_pic l_pic"
+            "a_title v_title l_title"
+            "a_info v_info l_info"
+            "a_btn v_btn l_btn";
     }
 
-    .custom_tech_container img {
-        flex: 1; /* Distribute available space equally among images */
-        width: 100%; /* Ensure images don't exceed container width */
-        height: auto; /* Maintain aspect ratio */
-        padding: 1vw 1vw 1vw 0;
+    .android img {
+        grid-area: a_pic;
+    }
+    .android h3 {
+        grid-area: a_title;
+    }
+    .android p {
+        grid-area: a_info;
+    }
+    .android button {
+        grid-area: a_btn;
     }
 
-    .custom_tech_container div {
-        margin: 2vw;
+    .vr img {
+        grid-area: v_pic;
+    }
+    .vr h3 {
+        grid-area: v_title;
+    }
+    .vr p {
+        grid-area: v_info;
+    }
+    .vr button {
+        grid-area: v_btn;
+    }
+
+    .laptop img {
+        grid-area: l_pic;
+    }
+    .laptop h3 {
+        grid-area: l_title;
+    }
+    .laptop p {
+        grid-area: l_info;
+    }
+    .laptop button {
+        grid-area: l_btn;
     }
 
     .custom_tech_container p {
@@ -82,6 +122,5 @@ img{
     .custom_tech_container button {
         width: 40%;
         padding: 20px;
-
     }
 }
