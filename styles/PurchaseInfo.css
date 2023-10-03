@@ -50,6 +50,7 @@
     font-size: x-large;
     font-weight: 500;
     text-align: left;
+    gap: 2vw;
 }
 
 li::marker{
@@ -68,7 +69,7 @@ li::marker{
 .shipping {
     background-color: #FEF9F7;
     position: relative;
-    padding-left: 10vw;
+    padding-left: 15vw;
     align-content: flex-start;
 }
 
@@ -174,8 +175,10 @@ footer{
 
     .to_top_image{
         position: absolute;
+        top: 0;
         left: 45%;
         right: 45%;
+        z-index: 1;
     }
 
 
@@ -186,8 +189,16 @@ footer{
         position: absolute;
     }
 
+    .shipping{
+        padding-top: 20vw;
+    }
+
     .shipping h3{
+        position: absolute;
+        top: 2vw;
         padding: 5vw 0 5vw 0;
+        font-size: 5vw;
+        z-index: 2;
     }
 
     .shipping div {
@@ -195,7 +206,9 @@ footer{
     }
 
     .shipping p, .shipping h4{
-        margin-top: 1vw;
+        font-weight: normal;
+        font-size: 3vw;
+        float: bottom;
         margin-bottom: 4vw;
     }
 
@@ -224,8 +237,17 @@ footer{
 }
 
 @media only screen and (min-width: 1280px) {
+    .head_wrapper{
+        text-align: center;
+        margin: 3vw 0 3vw 0;
+    }
+
     .head_wrapper img{
         width: 4%;
+    }
+
+    .shop_reason {
+        padding: 5vw;
     }
 
     .shop_reason_container{

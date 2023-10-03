@@ -18,6 +18,7 @@
 
 .custom_tech_container div{
     margin: 2vw;
+    padding-bottom: 10vw;
 }
 
 .custom_tech_container p, .custom_tech_container h3{
@@ -65,6 +66,7 @@
     }
 
     .custom_tech_container {
+        margin: 5vw;
         display: inline-grid;
         gap:3vw;
         grid-template-areas:
